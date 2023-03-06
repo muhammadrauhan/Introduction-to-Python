@@ -12,3 +12,4 @@ favorite_toy = "Mr. Squeaky"
 import pandas as pd
 #Load the 'ransom.csv' into a DataFrame
 r = pd.read_csv('ransom.csv')
+print(r)
