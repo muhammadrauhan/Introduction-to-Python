@@ -43,6 +43,10 @@ items = credit_records.item #selecting item using dot notation
 
 print(mpr.info()) #Inspect the Dataframe mpr using info
 
+print(height_inches > 70) #height_inches represents the height of a suspect
+print(plate1 == "FRQ123") #plate1 represents a license plate number of a suspect
+print(fur_color != "brown") #fur_color represents the color of Bayes' fur
 
-
-
+#anyone of them recently purchased dog treats in kidnapping
+purchase = credit_records[credit_records.location == 'Pet Paradise'] #those who visited 'Pet Paradise'
+#answers Fred Frequentist and Gertrude Cox
