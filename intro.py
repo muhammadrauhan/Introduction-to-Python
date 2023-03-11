@@ -49,8 +49,8 @@ print(plate1 == "FRQ123") #plate1 represents a license plate number of a suspect
 print(fur_color != "brown") #fur_color represents the color of Bayes' fur
 
 #anyone of them recently purchased dog treats in kidnapping
-purchase = credit_records[credit_records.location == 'Pet Paradise'] #those who visited 'Pet Paradise'
-#Fred Frequentist and Gertrude Cox
+purchase = credit_records[credit_records.location == 'Pet Paradise']
+#fred Frequentist and Gertrude Cox visited "Pet Paradise"
 
 #PLOTTING DATA WITH MATPLOTLIB
 from matplotlib import pyplot as plt
